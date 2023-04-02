@@ -1,0 +1,2 @@
+Average minimum temperature: 1°C
+Average maximum temperature: 3°C

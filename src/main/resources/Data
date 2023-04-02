@@ -1,0 +1,151 @@
+{
+  "forecast" : [ {
+    "date" : "2023-03-25",
+    "night" : {
+      "phenomenon" : "Moderate shower",
+      "tempmin" : "1",
+      "tempmax" : "6",
+      "text" : "Cloudy with clear spells. Rain in many places, after midnight dying out. Locally fog. Wind veering everywhere to southwest, west and increasing 7-13, in gusts 18, on islands and on coast 11-17, in gusts up to 23 m/s, in the morning from islands decreasing. Air temperature 1..6°C.",
+      "place" : [ {
+        "name" : "Harku",
+        "phenomenon" : "Moderate rain",
+        "tempmin" : "2"
+      }, {
+        "name" : "Jõhvi",
+        "phenomenon" : "Moderate rain",
+        "tempmin" : "4"
+      }, {
+        "name" : "Tartu",
+        "phenomenon" : "Moderate rain",
+        "tempmin" : "6"
+      }, {
+        "name" : "Pärnu",
+        "phenomenon" : "Moderate shower",
+        "tempmin" : "4"
+      }, {
+        "name" : "Kuressaare",
+        "phenomenon" : "Cloudy with clear spells",
+        "tempmin" : "4"
+      }, {
+        "name" : "Türi",
+        "phenomenon" : "Moderate rain",
+        "tempmin" : "4"
+      } ],
+      "wind" : [ {
+        "name" : "Kuusiku",
+        "direction" : "Southwest wind",
+        "speedmin" : "7",
+        "speedmax" : "13",
+        "gust" : "18"
+      }, {
+        "name" : "Väike-Maarja",
+        "direction" : "Southwest wind",
+        "speedmin" : "7",
+        "speedmax" : "13",
+        "gust" : "18"
+      }, {
+        "name" : "Võrtsjärv",
+        "direction" : "Southwest wind",
+        "speedmin" : "7",
+        "speedmax" : "13",
+        "gust" : "18"
+      } ],
+      "sea" : "Forecast for Baltic Sea valid 24 hours from 07:00 UTC Mar 24 to 07:00 UTC Mar 25, 2023. \n \nWarnings:\nNorthern Baltic: southeast, south, by late evening veering southwest 13, in gusts 18 m/s. Wave height 1.5-3 m.\nMoonsund, Northern Gulf of Riga: southeast, south, before midnight veering southwest 13, in gusts up to 18 m/s. Wave height in Gulf of Riga 1.5-2.5 m, in Moonsund 0.7-1.2 m.\n\nWeather summary: Ridge of High moving from Baltic countries to east. New minor Low deepening over Skagerrak, by evening its near Stockholm and next night moving over southern part of Finland eastwards. \n\nNorthern Baltic: \nsouthwest, south 7-12, towards evening southeast, south, by late evening veering southwest 9-13, in gusts 18, after midnight southwest, west 13-18, in gusts 23 m/s, in early morning veering gradually northwest and decreasing. Wave height in evening 1.5-3 m, at night 2-4 m. In evening, at night rain. Visibility moderate or poor.\n\nMoonsund, Northern Gulf of Riga: \nsouthwest, south 6-9, in gusts 13, in evening increasing southeast, before midnight veering southwest 8-12, in gusts 15-18, in early morning southwest, west 12-16, in gusts up to 22 m/s. Wave height tonight in Gulf of Riga 1.5-3 m, in Moonsund 0.7-1.5 m. In evening, at night rain, in morning locally possible sleet too. Visibility moderate or poor.\n\nWestern Gulf of Finland: \nsouthwest, in evening backing southeast 5-9, in gusts up to 13, at night veering southwest 10-14, in gusts 18, in morning southwest, west 12-17, in gusts 23 m/s. Wave height tomorrow 2-4 m. Before noon locally possible some rain, in evening and night rain, tomorrow morning locally possible sleet too. Visibility moderate or poor.\n  \nEastern Gulf of Finland: \nsoutherly 3-8, in afternoon 5-11, before midnight increasing southeast, after midnight veering southwest 8-12, in gusts 15, in morning up to 18 m/s. Wave height at night 1-2 m. In daytime locally some rain, at night rain, tomorrow morning locally possible sleet too. Visibility moderate or poor.\n",
+      "peipsi" : "Wind veering to southwest and increasing gradually 7-13, in gusts to 16, in the morning up to 20 m/s. Rain, after midnight dying out. Visibility moderate to good. Air temperature 1..4°C."
+    },
+    "day" : {
+      "phenomenon" : "Light shower",
+      "tempmin" : "2",
+      "tempmax" : "8",
+      "text" : "Cloudy with bright spells. Rain in places, locally sleet possible too. Southwest, west wind on islands 4-10, in mainland 6-13, in forenoon in gusts up to 20 m/s, in the afternoon gradually decreasing and becoming southerly 3-9 m/s. Air temperature 2..8°C.",
+      "place" : [ {
+        "name" : "Harku",
+        "phenomenon" : "Cloudy",
+        "tempmax" : "4"
+      }, {
+        "name" : "Jõhvi",
+        "phenomenon" : "Light rain",
+        "tempmax" : "8"
+      }, {
+        "name" : "Tartu",
+        "phenomenon" : "Cloudy",
+        "tempmax" : "8"
+      }, {
+        "name" : "Pärnu",
+        "phenomenon" : "Moderate shower",
+        "tempmax" : "5"
+      }, {
+        "name" : "Kuressaare",
+        "phenomenon" : "Light shower",
+        "tempmax" : "6"
+      }, {
+        "name" : "Türi",
+        "phenomenon" : "Cloudy",
+        "tempmax" : "7"
+      } ],
+      "wind" : [ {
+        "name" : "Kuusiku",
+        "direction" : "Southwest wind",
+        "speedmin" : "6",
+        "speedmax" : "9",
+        "gust" : ""
+      }, {
+        "name" : "Väike-Maarja",
+        "direction" : "West wind",
+        "speedmin" : "6",
+        "speedmax" : "9",
+        "gust" : "12"
+      }, {
+        "name" : "Võrtsjärv",
+        "direction" : "West wind",
+        "speedmin" : "6",
+        "speedmax" : "9",
+        "gust" : "12"
+      } ],
+      "sea" : "",
+      "peipsi" : "Southwest, west wind 6-12, in the forenoon in gusts up to 18 m/s, in the afternoon decreasing gradually and becoming southely. Locally some rain. Visibility mainly good. Air temperature 2..6°C."
+    }
+  }, {
+    "date" : "2023-03-26",
+    "night" : {
+      "phenomenon" : "Moderate rain",
+      "tempmin" : "0",
+      "tempmax" : "5",
+      "text" : "Cloudy with bright spells. Rain in many places, locally also sleet. Weak variable wind, on the northern coast east, northeast 4-9 m/s. Air temperature 0..+5°C."
+    },
+    "day" : {
+      "phenomenon" : "Moderate shower",
+      "tempmin" : "3",
+      "tempmax" : "9",
+      "text" : "Cloudy with bright spells. Rain in many places, locally also sleet. Weak variable wind 1-7 m/s, in Northern Estonia east, northeast wind 4-9, on coast in gusts 14 m/s. Air temperature 3..9°C."
+    }
+  }, {
+    "date" : "2023-03-27",
+    "night" : {
+      "phenomenon" : "Moderate sleet",
+      "tempmin" : "0",
+      "tempmax" : "4",
+      "text" : "Cloudy. Rain in many places, in Western Estonia also sleet and in the morning snow. Weak variable wind, on islands and in Northern Estonia northerly wind 4-9, on coast in gusts 12 m/s. Air temperature 0..+4°C, in the morning in Western Estonia possible falling below 0°C. "
+    },
+    "day" : {
+      "phenomenon" : "Moderate sleet",
+      "tempmin" : "-1",
+      "tempmax" : "7",
+      "text" : "Overcast. Rain and sleet, in Western Estonia mainly sleet and snow. Wind is turning westwards 3-9, on coast in gusts 14 m/s.  Air temperature -1..+3, in eastern counties up to +7°C."
+    }
+  }, {
+    "date" : "2023-03-28",
+    "night" : {
+      "phenomenon" : "Light snow shower",
+      "tempmin" : "-4",
+      "tempmax" : "0",
+      "text" : "Cloudy with clear spells. Locally some snow. westerly wind 3-9 m/s. Air temperature 0..-4°C."
+    },
+    "day" : {
+      "phenomenon" : "Moderate snowfall",
+      "tempmin" : "-2",
+      "tempmax" : "1",
+      "text" : "Mainly cloudy. In Western Estonia locally some snow, in eastern counties widely dense snow. Wind is turning northwards, in the afternoon west and increasing 5-10, on coast in gusts 15 m/s. Air temperature -2..+1°C.  "
+    }
+  } ]
+}

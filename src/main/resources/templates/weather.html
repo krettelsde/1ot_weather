@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather application</title>
+    <link rel="stylesheet" href="" th:href="@{/style.css}"/>
+</head>
+<body>
+<h1>4-day Weather Forecast</h1>
+<table th:each="forecast : ${myJsonNode}">
+    <thead>
+    <h3 class="date" th:text="'Wether Forecast '+ ${forecast.get('date').asText()}"></h3>
+    </thead>
+    <tbody>
+    <tr>
+        <th class="day" >Day</th>
+        <th class="night" >Night</th>
+    </tr>
+    <tr>
+        <td>
+            <strong>Phenomenon:</strong> <span th:text="${forecast.get('day').get('phenomenon').asText()}"></span><br>
+            <br>
+            <strong>Temperature:</strong> <span th:text="${forecast.get('day').get('tempmin').asText()} + '°C-'"></span><span th:text="${forecast.get('day').get('tempmax').asText()} + '°C'"></span><br>
+            <br>
+            <strong>Estonia</strong><br> <span th:text="${forecast.get('day').get('text').asText()}"></span><br>
+            <br>
+            <strong>Sea</strong><br>
+            <span th:text="${forecast.get('day').get('sea') != null and forecast.get('day').get('sea').asText() != '' ? forecast.get('day').get('sea').asText() : 'No information'}"></span><br>
+            <br>
+            <strong>Peipsi</strong> <br>
+            <span th:text="${forecast.get('day').get('peipsi') != null and forecast.get('day').get('peipsi').asText() != '' ? forecast.get('day').get('peipsi').asText() : 'No information'}"></span><br>
+            <br>
+            <span th:if="${not #lists.isEmpty(forecast.get('day').get('place'))}">
+                <span class="place-heading">Places</span><br>
+            </span>
+            <span class="places" th:each="places: ${forecast.get('day').get('place')}">
+                <strong><span th:text="${places.get('name').asText()}"></span></strong><br>
+                <span th:text="'Phenomenon: '+${places.get('phenomenon').asText()}"></span><br>
+                <span th:text="'Maximum temperature: '+${places.get('tempmax').asText()}+ '°C'"></span><br>
+                <br>
+            </span>
+            <br>
+            <span th:if="${not #lists.isEmpty(forecast.get('day').get('wind'))}">
+                <span class="wind-heading">Wind forecast</span><br>
+            </span>
+            <span class="wind" th:each="winds: ${forecast.get('day').get('wind')}">
+                <strong><span th:text="${winds.get('name').asText()}"></span></strong><br>
+                <span th:text="'Direction: '+${winds.get('direction').asText()}"></span><br>
+                <span th:text="'Speed: '+${winds.get('speedmin').asText()}+ 'm/s-'"></span> <span th:text="${winds.get('speedmax').asText()}+ 'm/s'"></span><br>
+                <br>
+            </span>
+        </td>
+        <td>
+            <strong>Phenomenon:</strong> <span th:text="${forecast.get('night').get('phenomenon').asText()}"></span><br>
+            <br>
+            <strong>Temperature:</strong> <span th:text="${forecast.get('night').get('tempmin').asText()} + '°C-'"></span><span th:text="${forecast.get('night').get('tempmax').asText()} + '°C'"></span><br>
+            <br>
+            <strong>Estonia</strong><br>
+            <span th:text="${forecast.get('night').get('text').asText()}"></span><br>
+            <br>
+            <strong>Sea</strong><br>
+            <span th:text="${forecast.get('night').get('sea') != null and forecast.get('night').get('sea').asText() != '' ? forecast.get('night').get('sea').asText() : 'No information'}"></span><br>
+            <br>
+            <strong>Peipsi</strong> <br>
+            <span th:text="${forecast.get('night').get('peipsi') != null and forecast.get('night').get('peipsi').asText() != '' ? forecast.get('night').get('peipsi').asText() : 'No information'}"></span><br>
+            <br>
+            <span th:if="${not #lists.isEmpty(forecast.get('night').get('place'))}">
+                <span class="place-heading">Places</span><br>
+            </span>
+            <span class="places" th:each="places: ${forecast.get('night').get('place')}">
+                <strong><span th:text="${places.get('name').asText()}"></span></strong><br>
+                <span th:text="'Phenomenon: '+${places.get('phenomenon').asText()}"></span><br>
+                <span th:text="'Minimum temperature: '+${places.get('tempmin').asText()}+ '°C'"></span><br>
+                <br>
+            </span>
+            <br>
+            <span th:if="${not #lists.isEmpty(forecast.get('night').get('wind'))}">
+                <span class="wind-heading">Wind forecast</span><br>
+            </span>
+            <span class="wind" th:each="winds: ${forecast.get('night').get('wind')}">
+                <strong><span th:text="${winds.get('name').asText()}"></span></strong><br>
+                <span th:text="'Direction: '+${winds.get('direction').asText()}"></span><br>
+                <span th:text="'Speed: '+${winds.get('speedmin').asText()}+ 'm/s-'"></span> <span th:text="${winds.get('speedmax').asText()}+ 'm/s'"></span><br>
+                <br>
+            </span>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
